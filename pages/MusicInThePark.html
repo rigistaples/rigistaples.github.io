@@ -1,8 +1,13 @@
 ---
 layout: page
-title: Interesting Facts
+title: Music in the Park
 ---
-{% for post in site.categories.facts %}
+
+<h1>What is Music in the Park?</h1>
+<p>Come and bring your instruments and jam, 6 feet apart, of course!</p>
+
+
+{% for post in site.categories.MusicInThePark %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
