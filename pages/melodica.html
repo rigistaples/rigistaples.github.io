@@ -1,0 +1,18 @@
+---
+layout: page
+title: Melodica Mondays
+---
+<h1>Ever wanted a portable piano? </h1>
+<h2>Well, you've found one in a melodica!</h2>
+
+<p>Check out our calendar to see when our next Melodica Mondays is happening at Oak Park in Manchester, NH! Bring a friend, bring your melodica, and toot away.</p>
+<p>You can get a melodica for as little as $20 online.</p>
+
+
+{% for post in site.categories.melodica %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
