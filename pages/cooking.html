@@ -1,8 +1,11 @@
 ---
 layout: page
-title: Sample Posts
+title: Cooking Club
 ---
-{% for post in site.categories.sample %}
+
+<p>Learn how to make some easy dinner and desserts - with friends over Zoom!</p>
+
+{% for post in site.categories.cooking %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
