@@ -14,8 +14,8 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Manchester"
-description:	       "Your hub for all things creative in the Manch."
+title:		           "Manch"
+description:	       "2021"
 #author:              "Rigi Staples"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
