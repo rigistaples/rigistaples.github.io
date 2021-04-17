@@ -14,7 +14,7 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Manchester Gets Creative"
+title:		           "Manchester"
 description:	       "Your hub for all things creative in the Manch."
 #author:              "Rigi Staples"
 
