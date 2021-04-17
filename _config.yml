@@ -15,8 +15,8 @@ sass:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "ManchesterGetsCreative.com"
-description:	       "Your hub for all things creative in the Manch"
-author:              "Rigi Staples"
+description:	       "Your hub for all things creative in the Manch."
+#author:              "Rigi Staples"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
