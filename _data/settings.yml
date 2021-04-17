@@ -10,7 +10,7 @@ menu:
 - {name: 'Music in the Park', folder: 'pages', file: 'MusicInThePark.html'}
 - {name: 'Cowbell Circle', folder: 'pages', file: 'more-cowbell.html'}
 - {name: 'Cooking Club', folder: 'pages', file: 'cooking.html'}
-- {name: 'Melodica Mondays', folder: 'pages', file: 'melodica.html'}
+- {name: 'Melodica Mondays!!', folder: 'pages', file: 'melodica.html'}
 - {name: 'Calendar', folder: 'pages', file: 'calendar.html'}
 - {name: 'About', folder: 'pages', file: 'about.html'}
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
